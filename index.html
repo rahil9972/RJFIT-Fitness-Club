@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerFit Fitness Club</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+        header {
+            background: #0d6efd;
+            padding: 30px;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            background: #084298;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px;
+        }
+        h2 {
+            color: #084298;
+        }
+
+        /* Trainer Profiles */
+        .trainer {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 5px solid #0d6efd;
+            border-radius: 5px;
+        }
+        .trainer img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Schedule */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background: #0d6efd;
+            color: white;
+        }
+
+        /* Membership Plans */
+        .plans {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .plan {
+            background: white;
+            padding: 20px;
+            border-left: 6px solid #0d6efd;
+            border-radius: 5px;
+        }
+
+        /* Blog articles */
+        .blog {
+            background: white;
+            padding: 20px;
+            border-left: 5px solid #000;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .blog img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>🏋️ RJFit Fitness Club</h1>
+    <p>Your fitness journey begins here.</p>
+</header>
+
+<nav>
+    <a href="#schedule">Class Schedule</a>
+    <a href="#trainers">Trainers</a>
+    <a href="#plans">Membership Plans</a>
+    <a href="#blog">Fitness Blog</a>
+</nav>
+
+<!-- CLASS SCHEDULE -->
+<section id="schedule">
+    <h2>Weekly Class Schedule</h2>
+
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Class</th>
+            <th>Time</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Yoga</td>
+            <td>6:00 AM - 7:00 AM</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>HIIT Training</td>
+            <td>5:00 PM - 6:00 PM</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Zumba</td>
+            <td>7:00 AM - 8:00 AM</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Weight Training</td>
+            <td>6:00 PM - 7:30 PM</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>Pilates</td>
+            <td>6:00 AM - 7:00 AM</td>
+        </tr>
+    </table>
+</section>
+
+<!--TRAINER PROFILES-->
+<section id="trainers">
+    <h2>Meet Our Trainers</h2>
+
+    <div class="trainer">
+        <img src="https://tse4.mm.bing.net/th/id/OIP.CV3xiOuFp6-JVJui4ndwdgHaEK?pid=Api&P=0&h=180"="Trainer 1">
+        <h3>ADRIENE – Yoga & Pilates Coach</h3>
+        <p>10 years of experience helping clients improve flexibility and balance.</p>
+    </div>
+
+    <div class="trainer">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.ZLM-2Md5F_OXZKLAWxGe2QHaEK?pid=Api&P=0&h=180" alt="Trainer 2">
+        <h3>ROMAN REINGS – Strength Training Expert</h3>
+        <p>Specializes in muscle building and body transformation training.</p>
+    </div>
+
+    <div class="trainer">
+        <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" alt="Trainer 3">
+        <h3>Maria Lopez – Zumba & Dance Fitness Instructor</h3>
+        <p>Certified trainer who makes fitness fun through energetic dance routines.</p>
+    </div>
+</section>
+
+<!-- MEMBERSHIP PLANS -->
+<section id="plans">
+    <h2>Membership Plans</h2>
+
+    <div class="plans">
+        <div class="plan">
+            <h3>Basic Plan</h3>
+            <p> $20/ month</p>
+            <p>✔ Gym Access</p>
+            <p>✔ Locker Room</p>
+            <p>✖ Group Classes</p>
+            <p>✖ Personal Trainer</p>
+        </div>
+
+        <div class="plan">
+            <h3>Standard Plan</h3>
+            <p>$45 / month</p>
+            <p>✔ Gym Access</p>
+            <p>✔ Group Classes</p>
+            <p>✔ Locker Room</p>
+            <p>✖ Personal Trainer</p>
+        </div>
+
+        <div class="plan">
+            <h3>Premium Plan</h3>
+            <p>$75 / month</p>
+            <p>✔ Gym Access</p>
+            <p>✔ Group Classes</p>
+            <p>✔ Personal Trainer</p>
+            <p>✔ Nutrition Plans</p>
+        </div>
+    </div>
+</section>
+
+<!-- FITNESS BLOG -->
+<section id="blog">
+    <h2>Fitness Tips Blog</h2>
+
+    <div class="blog">
+        <h3>10 Simple Tips for Staying Fit</h3>
+        <p>Learn easy ways to build healthy habits into your daily routine.</p>
+        <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1" alt="Fitness Tips">
+    </div>
+
+    <div class="blog">
+        <h3>Weight Training for Beginners</h3>
+        <p>A simple guide to help you safely start your strength training journey.</p>
+        <img src="https://images.unsplash.com/photo-1571127236805-27dc047c076d" alt="Weight Training">
+    </div>
+
+    <div class="blog">
+        <h3>Why Cardio Is Important</h3>
+        <p>Find out why cardio workouts are crucial for heart health and stamina.</p>
+        <img src="https://images.unsplash.com/photo-1558611848-99f12b600b43" alt="Cardio">
+    </div>
+</section>
+
+</body>
+</html>
